@@ -7,3 +7,9 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
+
+class hospital
+{
+public:
+	int delete
+};
