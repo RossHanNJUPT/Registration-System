@@ -46,24 +46,4 @@ protected:
 	string pwd;
 };
 
-class DocArrange
-{
-public:
-	DocArrange();
-	DocArrange(int DocID, string DocName, string DocDepartment, string DocPos, bool DocState, string DocIntro);
-	~DocArrange();
-	int getDocID();
-	string getDocName();
-	string getDocDepartment();
-	string getDocPos();
-	bool getDocState();
-	string getDocIntro();
-	void setDocID();
-	void setDocName();
-	void setDocDepartment();
-	void setDocPos();
-	void setDocState();
-
-};
-
 #endif
